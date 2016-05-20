@@ -1,8 +1,8 @@
 # docker-isis-security-db
 
-A docker container for running isis-module-secuity as [MariaDB](http://mariadb.org) server
-and client which extends [OpenWrt x86_64](http://openwrt.org) for
-minimal size.
+A docker container for keeping
+[isis-module-security](https://github.com/isisaddons/isis-module-security)'s
+RDBMS part in a [MariaDB](http://mariadb.org) server.
 
 ### Run as server
 
@@ -23,4 +23,6 @@ docker run -v $HOME/data:/data -e PASSWORD=root -d mcreations/isis-security-db
 ```
 
 ### More Information
-For more information please see the README of parent Docker container [here](https://github.com/m-creations/docker-openwrt-mariadb/blob/master/README.md)
+
+For more information please see the README of parent Docker container
+[here](https://github.com/m-creations/docker-openwrt-mariadb/blob/master/README.md)
